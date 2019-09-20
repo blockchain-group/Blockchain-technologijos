@@ -32,7 +32,7 @@ Sukurkite Jūsų (t.y. pabandykite neieškoti *hash* funkcijų pavyzdžių Inter
 - Atlikite eksperimentinę analizę (žr. Komentarai dėl pradinio eksperimentinio tyrimo-analizės), kurios metu įsitikinkite, kad Jūsų *hash* funkcija-generatorius iš tiesų pasižymi aukščiau aprašytais *hash* funkcijoms keliamais reikalavimais. Atliktą tyrimą išsamiai aprašykite `README` faile.
 - Eksperimentinis tyrimas-analizė turi būti atkartojamas, t. y., paskaitos metu reikės pademonstruoti, kaip vyksta tyrimas ir kaip argumentavote, kad Jūsų maišos funkcija pasižymi šiomis savybėmis.
 
-### Komentarai dėl pradinio eksperimentinio tyrimo-analizės
+### Komentarai dėl eksperimentinio tyrimo-analizės atlikimo
 
 1. Susikurkite testinių įvedimo failų pavyzdžių, tokių kad:
   - Bent du failai būtų sudaryti tik iš vieno, tačiau skirtingo, simbolio.
