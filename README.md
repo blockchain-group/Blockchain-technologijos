@@ -6,7 +6,7 @@ Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 - [Įvadinė užduotis](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/Ivadine-uzduotis.md)
 - [1-oji užduotis: Hash generatoriaus kūrimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/1uzduotis-Hashavimas.md)
 
-## Praktinių užduotys ir jų vertinimas (gali keistis)
+## Praktinės užduotys ir jų vertinimas (gali keistis)
 
 Pagal dabartinį preliminarų planą, esame numatę iš viso 5 praktines užduotis:
  1. Hash' generatoriaus realizacija ir testavimas (2 balai)
