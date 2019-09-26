@@ -36,11 +36,11 @@ Sukurkite Jūsų (t.y. pabandykite neieškoti *hash* funkcijų pavyzdžių Inter
 
 1. Susikurkite testinių įvedimo failų pavyzdžių, tokių kad:
   - Bent du failai būtų sudaryti tik iš vieno, tačiau skirtingo, simbolio.
-  - Bent du failai būtų sudaryti iš daug visiškai skirtingų simbolių (> 100000 simbolių)
+  - Bent du failai būtų sudaryti iš daug visiškai skirtingų simbolių (> 10000 simbolių)
   - Bent du failai būtų sudaryti iš daug simbolių ir skirtųsi vienas nuo kito tik vienu simboliu.
   - Tuščias failas
 Ir išveskite output'us. Nepriklausomai nuo Input'o, Output'ai turi būti vienodo dydžio. Tokiu būdu pademonstruosite, kad Jūsų _hash funkcija_ atitinka 1-3-ą reikalavimus.
 2. Ištirkite Jūsų sukurtos hash funkcijos efektyvumą: tuo tikslu suhash'uokite kiekvieną eilutę iš `konstitucija.txt` failo. Reiktų čia matuoti, tik hash'avimo funkcijos veikimo laiką (be input'o nuskaitymo/parengimo). Reiktų pateikti bendrą suminį visų hash'avimų laiką.
   - (Advanced užduotis - norintiems papildomų balų) Pabandykite kaip įmanoma __objektyviau__ palyginti Jūsų Hash funkcijos spartą su `MD5`, `SHA-1`, `SHA-256` ar kita gerai žinoma hash funkcija. Paliekame Jums sugalvoti, kaip atlikti tokį tyrimą objektyviai!
-3. Susigeneruokite bent 1000 000 atsitiktinių simbolių eilučių (`string`'ų) porų (apsiribokite iki 5 simbolių eilučių ilgiu) ir patikrinkite, kad visais atvejais gautieji porų hash'ai nesutampa. Tokiu būdų bent dalinai įsitikinsite, kad Jūsų hash funkcija atitinka 6-ą reikalavimą.
-4. Susigeneruokite bent 1000 000 atsitiktinių simbolių eilučių (`string`'ų) porų, tokių kad skirtųsi jos tik vienu simboliu (apsiribokite iki 5 simbolių eilučių ilgiu) ir įvertinkite Jūsų gautų hash'ų procentinį "skirtingumą" __bitų lygmenyje__. Išveskite iš minimalią, maksimalią ir vidurkines "skirtingumo" reikšmes. Tokiu būdų įsitikinsite, kaip gerai Jūsų hash funkcija atitinka 7-ą reikalavimą.
+3. Susigeneruokite bent 100 000 atsitiktinių simbolių eilučių (`string`'ų) porų (apsiribokite iki 5 simbolių eilučių ilgiu) ir patikrinkite, kad visais atvejais gautieji porų hash'ai nesutampa. Tokiu būdų bent dalinai įsitikinsite, kad Jūsų hash funkcija atitinka 6-ą reikalavimą.
+4. Susigeneruokite bent 100 000 atsitiktinių simbolių eilučių (`string`'ų) porų, tokių kad skirtųsi jos tik vienu simboliu (apsiribokite iki 5 simbolių eilučių ilgiu) ir įvertinkite Jūsų gautų hash'ų procentinį "skirtingumą" __bitų lygmenyje__. Išveskite iš minimalią, maksimalią ir vidurkines "skirtingumo" reikšmes. Tokiu būdų įsitikinsite, kaip gerai Jūsų hash funkcija atitinka 7-ą reikalavimą.
