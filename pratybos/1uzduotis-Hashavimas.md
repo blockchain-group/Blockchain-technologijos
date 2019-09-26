@@ -45,7 +45,10 @@ Ir išveskite output'us. Nepriklausomai nuo Input'o, Output'ai turi būti vienod
 3. Susigeneruokite bent 100 000 atsitiktinių simbolių eilučių (`string`'ų) porų (apsiribokite iki 5 simbolių eilučių ilgiu) ir patikrinkite, kad visais atvejais gautieji porų hash'ai nesutampa. Tokiu būdų bent dalinai įsitikinsite, kad Jūsų hash funkcija atitinka 6-ą reikalavimą.
 4. Susigeneruokite bent 100 000 atsitiktinių simbolių eilučių (`string`'ų) porų, tokių kad skirtųsi jos tik vienu simboliu (apsiribokite iki 5 simbolių eilučių ilgiu) ir įvertinkite Jūsų gautų hash'ų procentinį "skirtingumą" __bitų lygmenyje__. Išveskite iš minimalią, maksimalią ir vidurkines "skirtingumo" reikšmes. Tokiu būdų įsitikinsite, kaip gerai Jūsų hash funkcija atitinka 7-ą reikalavimą.
 
-### Darbo vertinimas
+### Darbo vertinimas (Terminas: 2019-10-03)
 
 - Iki 2.0 balų gausite atlikę visas aukščiau aprašytas užduotis pagal pateiktus reikalavimus.
-- **Papildomų 0.5 balų surinkimas originalesnis**. Pirmiausia reiktų visas Jūsų grupės/pogrupio sukurtas hash funkcijas/generatorius apjungti/integruoti į vieno iš Jūsų programą  ir tuomet atlikti visą aukščiau aprašytą **lyginamąją analizę** (pagal 2-ą ir 4-ą eksperimentinio tyrimo-analizės atlikimo punktus) naudojant visus Jūsų grupės/pogrupio sukurtus hash generatorius. Gautus grupės/pogrupio rezultatus už abidvi užduotis - agreguokite. tuomet jeigu Jūsų sukurtas _hash_ generatorius pateks tarp 25% geriausių Jūsų grupėje/pogrupyje (Q1 - pirmasis kvartilis), gausite papildomus 0.5 balo, o jeigu tarp 25% - 50% geriausių Jūsų grupėje/pogrupyje (Q2 - antrasis kvartilis), gausite papildomus 0.25 balo.
+
+### Papildoma užduotis (0.5 balo) (Terminas: 2019-10-03)
+
+**Papildomų 0.5 balų surinkimas originalesnis**. Pirmiausia reiktų visas Jūsų grupės/pogrupio sukurtas hash funkcijas/generatorius apjungti/integruoti į vieno iš Jūsų programą  ir tuomet atlikti visą aukščiau aprašytą **lyginamąją analizę** (pagal 2-ą ir 4-ą eksperimentinio tyrimo-analizės atlikimo punktus) naudojant visus Jūsų grupės/pogrupio sukurtus hash generatorius. Gautus grupės/pogrupio rezultatus už abidvi užduotis - agreguokite. tuomet jeigu Jūsų sukurtas _hash_ generatorius pateks tarp 25% geriausių Jūsų grupėje/pogrupyje (Q1 - pirmasis kvartilis), gausite papildomus 0.5 balo, o jeigu tarp 25% - 50% geriausių Jūsų grupėje/pogrupyje (Q2 - antrasis kvartilis), gausite papildomus 0.25 balo.
