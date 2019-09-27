@@ -7,14 +7,14 @@ Visos šios užduotys yra tik rekomendacinio pobūdžio ir neturės jokios įtak
 2. Užsiregistruokite (kas dar nesate) [Coursera](coursera.org) ir išklausykite čia esančius *„Blockchain Specialization“* on-line kursus, kurie susidaro iš: 
    - *Blockchain basics*,
    - *Smart Contracts*,
-   -  *Decentralized Applications (Dapps),**
-   - **Blockchain Platforms.*
+   - *Decentralized Applications (Dapps),*
+   - *Blockchain Platforms.*
 
 Naudojant „Audit“ galimybę, galima šiuose kursuose dalyvauti nemokamai.
 
-3. Susikurkite *Bitcoin* pinigine: **online** per [btc.com](https://btc.com/) ir Electrum (arba Wasabi) (asmeniniame kompiuteryje).
+3. Susikurkite *Bitcoin* piniginę: **online** per [btc.com](https://btc.com/) ir Electrum (arba Wasabi) (asmeniniame kompiuteryje).
 
-4. Susikurti *Ethereum* piniginę: **online** per [https://www.myetherwallet.com](https://www.myetherwallet.com/) ir [MetaMask](https://metamask.io/) (asmeniniame kompiuteryje).
+4. Susikurkite *Ethereum* piniginę: **online** per [https://www.myetherwallet.com](https://www.myetherwallet.com/) ir [MetaMask](https://metamask.io/) (asmeniniame kompiuteryje).
 
 5. Medžiaga susipažinimui su *Bitcoin* technologija ir ją sudarančių technologijų chronologija: 
    - [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
