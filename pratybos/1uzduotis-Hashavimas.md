@@ -31,6 +31,7 @@ Sukurkite Jūsų (t.y. pabandykite neieškoti *hash* funkcijų pavyzdžių Inter
 - Realizacijoje *input*'ą, esantį išoriniame faile, reikia nurodyti per pateikta `Command Line Argument`'ą. Tačiau turi būti galimybė paduoti ir simbolių eilutę, aka `string`'ą.
 - Atlikite eksperimentinę analizę (žr. Komentarai dėl pradinio eksperimentinio tyrimo-analizės), kurios metu įsitikinkite, kad Jūsų *hash* funkcija-generatorius iš tiesų pasižymi aukščiau aprašytais *hash* funkcijoms keliamais reikalavimais. Atliktą tyrimą išsamiai aprašykite `README` faile.
 - Eksperimentinis tyrimas-analizė turi būti atkartojamas, t. y., paskaitos metu reikės pademonstruoti, kaip vyksta tyrimas ir kaip argumentavote, kad Jūsų maišos funkcija pasižymi šiomis savybėmis.
+- Apraytikite savo funkcijos idėją ir eksperimentinio tyrimo vykdymą ir rezultatus ataskaitoje.
 
 ### Komentarai dėl eksperimentinio tyrimo-analizės atlikimo
 
@@ -48,6 +49,7 @@ Ir išveskite output'us. Nepriklausomai nuo Input'o, Output'ai turi būti vienod
 ### Darbo vertinimas (Terminas: 2019-10-03)
 
 - Iki 2.0 balų gausite atlikę visas aukščiau aprašytas užduotis pagal pateiktus reikalavimus.
+- Bus atsižvelgiama į kūrybiškumą - ar nėra atkartoti kiti žinomi algoritmai.
 
 ### Papildoma užduotis (0,5 balo) (Terminas: 2019-10-03)
 
