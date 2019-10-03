@@ -31,7 +31,7 @@ Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite bl
 
 ## Reikalavimai versijai (`v0.1`) (Preliminarus terminas: 2019-10-18)
 
-Visus šios užduoties žingsnius realizuokite taip kaip Jūsų dabartinis *blockchain* supratimas sako, arba tiesiog kaip Jums patogiau. 
+Visus šios užduoties žingsnius realizuokite taip kaip Jūsų dabartinis *blockchain* supratimas sako, arba tiesiog kaip Jums patogiau. Tačiau būtų gerai, kad hash'avimo procesui naudotumėte Jūsų pirmąjam darbui sukurtas hash funkcijas.
 
 
 Iš karto norime užbėgti įvykiams už akių ir pasakyti, kad kitose versijose atsiras griežtesni reikalavimai, atsižvelgiant kaip iš tiesų blockchain veikia, tokie kaip pvz. transakcijų validavimas, naujojo bloko hash'o gavimas kur input'as į hash'o funkciją yra sudarytas iš bloko antraštės parametrų, transakcijų Merkle medžio hash'as ir pan. Viskas bus sukonkretinta.
