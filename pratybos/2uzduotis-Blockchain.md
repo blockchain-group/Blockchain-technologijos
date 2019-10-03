@@ -21,9 +21,9 @@ Išskirtume kelis tokios svarbius blokų grandinės aspektus:
 
 ## Pirminė užduoties formuluotė
 
-Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite blokų grandinės veikimą kuo natūralesnėmis sąlygomis. Norint tai pasiekti, preliminari veiksmų seka (nebūtinai eilės tvarka, kokia čia nurodyta ir nebūtinai tokia seka :smile:) galėtų būti tokia:
+Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite blokų grandinės veikimą kuo natūralesnėmis sąlygomis. Norint tai pasiekti, preliminari veiksmų seka (nebūtinai eilės tvarka, kokia čia nurodyta ir nebūtinai tokia seka :smile: galėtų būti tokia:
 
-1. Sugeneruoti ~1000 tinklo vartotojų (aka user'ių), kurie turėtų, bent tris atributus: `vardą`, viešąjį raktą (`public_key`) ir tam tikros valiutos (galite pasivadinti savo vardu :smile: ) atsitiktinį balansą, nuo 100 iki 1000000 ribose.
+1. Sugeneruoti ~1000 tinklo vartotojų (aka user'ių), kurie turėtų, bent tris atributus: `vardą`, viešąjį raktą (`public_key`) ir tam tikros valiutos (galite pasivadinti savo vardu :smile: atsitiktinį balansą, nuo 100 iki 1000000 ribose.
 2. Sugeneruoti tam tikrą skaičių, pvz. 10000 atsitiktinių transakcijų tarp visų vartotojų, kurių metu jie vienas kitam atlikinėtų pinigų pervedimus.
 3. Iš šių transakcijų atrinkti 100-ą (tarsime, kad blokas talpins apie 100 transakcij7) ir jas priskirti naujam sugeneruotam blokui, kurį kitame žingsnyje dar reikės "validuoti" - iškąsti. Bloko struktūra nurodyta auščiau, tačiau reikšmių tikslumas ir griežtumas priklauso nuo reikalavimų realizacijos versijai (žr. žemiau).
 4. Realizuoti naujų blokų kasimo (angl. *mining*) Proof-of-Work (PoW) procesą, kurio tikslas yra surasti naujam blokui hash'ą, kuris tenkintų `Difficulty Targer` reikalavimą.
@@ -33,4 +33,5 @@ Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite bl
 
 Visus šios užduoties žingsnius realizuokite taip kaip Jūsų dabartinis *blockchain* supratimas sako, arba tiesiog kaip Jums patogiau. 
 
-Iš karto norime užbėgti įvykiams už akių ir pasakyti, kad kitose versijose atsiras griežtesni reikalavimai, atsižvelgiant kaip iš tiesų blockchain veikia, tokie kaip pvz. transakcijų validavimas, naujojo bloko hash'o gavimas kur input'as į hash'o funkciją yra sudarytas iš bloko antraštės parametrų, transakcijų Merkle medžio hash'as
+
+Iš karto norime užbėgti įvykiams už akių ir pasakyti, kad kitose versijose atsiras griežtesni reikalavimai, atsižvelgiant kaip iš tiesų blockchain veikia, tokie kaip pvz. transakcijų validavimas, naujojo bloko hash'o gavimas kur input'as į hash'o funkciją yra sudarytas iš bloko antraštės parametrų, transakcijų Merkle medžio hash'as ir pan. Viskas bus sukonkretinta.
