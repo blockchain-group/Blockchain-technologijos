@@ -54,3 +54,6 @@ Ir išveskite output'us. Nepriklausomai nuo Input'o, Output'ai turi būti vienod
 ### Papildoma užduotis (0,5 balo) (Terminas: 2019-10-03)
 
 **Papildomų 0.5 balų surinkimas originalesnis**. Pirmiausia reiktų visas Jūsų grupės/pogrupio sukurtas hash funkcijas/generatorius apjungti/integruoti į vieno iš Jūsų programą  ir tuomet atlikti visą aukščiau aprašytą **lyginamąją analizę** (pagal 2-ą ir 4-ą eksperimentinio tyrimo-analizės atlikimo punktus) naudojant visus Jūsų grupės/pogrupio sukurtus hash generatorius. Gautus grupės/pogrupio rezultatus už abidvi užduotis - agreguokite. Tuomet jeigu Jūsų sukurtas _hash_ generatorius pateks tarp 25% geriausių Jūsų grupėje/pogrupyje (Q1 - pirmasis kvartilis), gausite papildomus 0,5 balo, o jeigu tarp 25% - 50% geriausių Jūsų grupėje/pogrupyje (Q2 - antrasis kvartilis), gausite papildomus 0,25 balo.
+
+### Lyginamūjų analizių sprendimai
+* [Hashrank](https://github.com/dqmis/hashrank)
