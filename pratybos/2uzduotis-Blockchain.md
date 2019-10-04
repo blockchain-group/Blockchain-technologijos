@@ -1,10 +1,10 @@
 # 2-oji užduotis: Supaprastintos blokų grandinės (blockchain) kūrimas
 
-Pagrindinis šios užduoties tikslas yra sukurti supaprastintą blokų grandinę (angl. *blockchain*), kurios galima supaprastinta struktūra yra pateikta žemiau:
+Pagrindinis šios užduoties tikslas yra sukurti supaprastintą blokų grandinę (angl. *blockchain*), kurios galima struktūra yra pateikta žemiau:
 
 ![Hashing](img/Blockchain-represented-as-Linked-List-Data-Structure.png)
 
-Išskirtume kelis tokios svarbius blokų grandinės aspektus:
+Išskirtume kelis svarbius blokų grandinės aspektus:
 
 - Blokų grandinė (blockchain) susidaro iš sąrašo vienas po kito einančių blokų, kurių kiekvienas susietas su prieš tai buvusio bloko hash'u. 
 
@@ -21,17 +21,17 @@ Išskirtume kelis tokios svarbius blokų grandinės aspektus:
 
 ## Pirminė užduoties formuluotė
 
-Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite blokų grandinės veikimą kuo natūralesnėmis sąlygomis. Norint tai pasiekti, preliminari veiksmų seka (nebūtinai eilės tvarka, kokia čia nurodyta ir nebūtinai tokia seka :smile: galėtų būti tokia:
+Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite blokų grandinės veikimą kuo natūralesnėmis sąlygomis. Norint tai pasiekti, preliminari veiksmų seka (nebūtinai eilės tvarka, tokia kokia čia nurodyta) galėtų būti tokia:
 
-1. Sugeneruoti ~1000 tinklo vartotojų (aka user'ių), kurie turėtų, bent tris atributus: `vardą`, viešąjį raktą (`public_key`) ir tam tikros valiutos (galite pasivadinti savo vardu :smile: atsitiktinį balansą, nuo 100 iki 1000000 ribose).
-2. Sugeneruoti tam tikrą skaičių, pvz., 10000 atsitiktinių transakcijų tarp visų vartotojų, kurių metu jie vienas kitam atlikinėtų pinigų pervedimus.
-3. Iš šių transakcijų atrinkti 100-ą (tarsime, kad blokas talpins apie 100 transakcijų) ir jas priskirti naujam sugeneruotam blokui, kurį kitame žingsnyje dar reikės "validuoti" - iškąsti. Bloko struktūra nurodyta auščiau, tačiau reikšmių tikslumas ir griežtumas priklauso nuo reikalavimų realizacijos versijai (žr. žemiau).
-4. Realizuoti naujų blokų kasimo (angl. *mining*) Proof-of-Work (PoW) procesą, kurio tikslas yra surasti naujam blokui hash'ą, kuris tenkintų `Difficulty Targer` reikalavimą.
-5. Naują bloką pridėti prie blokų grandinės ir 3-5 žingsnius kartoti tol, kol yra laisvų transakcijų nesančių blokuose.
+1. Sugeneruoti ~1000 tinklo vartotojų (aka user'ių), kurie turėtų bent tris atributus: `vardą`, viešąjį _hash_ raktą (`public_key`) ir tam tikros valiutos (galite pasivadinti savo vardu :smile: ) atsitiktinį balansą, pvz. nuo 100 iki 1000000 vienetų.
+2. Sugeneruoti tam tikrą skaičių, pvz., transkacijų pol'ą sudarytą iš 10000 atsitiktinių transakcijų (jų struktūrą kol kas yra neformalizuota) tarp visų vartotojų, kurių metu jie vienas kitam atlikinėtų pinigų pervedimus.
+3. Iš šių transakcijų atsitiktinai pasirinkti 100-ą (tarsime, kad blokas talpins apie 100 transakcijų) ir jas priskirti naujam sugeneruotam blokui (kurį kitame žingsnyje dar reikės "iškąsti"), kurio struktūra nurodyta paveiksle aukščiau.
+4. Realizuoti naujų blokų kasimo (angl. *mining*) Proof-of-Work (PoW) procesą, kurio tikslas yra surasti naujam blokui hash'ą, tenkinantį `Difficulty Targer` reikalavimą, t.y., hash'o pradžioje esančių nulių skaičių.
+5. Suradus tokį naujo bloko hash'ą, bloką pridėti prie grandinės. Kartoti 3-5 žingsnius tol, kol yra laisvų transakcijų.
 
 ## Reikalavimai versijai (`v0.1`) (Preliminarus terminas: 2019-10-18)
 
-Visus šios užduoties žingsnius realizuokite taip kaip Jūsų dabartinis *blockchain* supratimas sako, arba tiesiog kaip Jums patogiau. Tačiau būtų gerai, kad hash'avimo procesui naudotumėte Jūsų pirmąjam darbui sukurtas hash funkcijas.
+- Visus šios užduoties žingsnius realizuokite taip, kaip Jūsų dabartinis *blockchain* supratimas sako. Hash'avimo procesui turite naudoti Jūsų pirmąjam darbui sukurtas _hash_ funkcijas.
 
 
-Iš karto norime užbėgti įvykiams už akių ir pasakyti, kad kitose versijose atsiras griežtesni reikalavimai, atsižvelgiant kaip iš tiesų blockchain veikia, tokie kaip pvz. transakcijų validavimas, naujojo bloko hash'o gavimas, kur input'as į hash'o funkciją yra sudarytas iš bloko antraštės parametrų, transakcijų Merkle medžio hash'as ir pan. Viskas bus sukonkretinta.
+Iš karto norime užbėgti įvykiams už akių ir pasakyti, kad kitose užduoties versijose atsiras griežtesni reikalavimai, atsižvelgiant kaip iš tiesų _blockchain_ veikia ar yra realizuota. Kaip pvz., atsiras transakcijų validavimas; naujojo bloko hash'o gavimas, kur input'as į hash'o funkciją yra sudarytas iš bloko antraštės parametrų; transakcijų Merkle medžio hash'o gavimas ir pan. Viskas bus sukonkretinta greitu laiku.
