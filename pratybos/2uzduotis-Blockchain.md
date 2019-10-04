@@ -6,7 +6,7 @@ Pagrindinis šios užduoties tikslas yra sukurti supaprastintą blokų grandinę
 
 Išskirtume kelis tokios svarbius blokų grandinės aspektus:
 
-- Blokų grandinė (blockchain) susidaro iš sąrašo vienas po kito einančių blokų, susietų prieš tai buvusio bloko hash'u. 
+- Blokų grandinė (blockchain) susidaro iš sąrašo vienas po kito einančių blokų, kurių kiekvienas susietas su prieš tai buvusio bloko hash'u. 
 
 - Kiekvieno iš blokchain grandinės bloko struktūra yra sudaryta iš dviejų esminių komponentų: **antraštės** (angl. *header*), kurią šiuo atveju sudaro:
 
