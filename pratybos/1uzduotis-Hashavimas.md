@@ -58,3 +58,5 @@ Ir išveskite output'us. Nepriklausomai nuo Input'o, Output'ai turi būti vienod
 ### Hash'ų efektyvumo varžytuvės
 
 * [Dominyko Šepučio - Hashrank](https://github.com/dqmis/hashrank)
+* [Augustino Makevičiaus - TheHashRacer](https://github.com/AugustinasMK/TheHashRacer)
+
