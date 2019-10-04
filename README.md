@@ -6,7 +6,7 @@ Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 - [Praktinių užduočių vertinimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/vertinimas.md)
 - [Įvadinė užduotis](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/Ivadine-uzduotis.md)
 - [1-oji užduotis: Hash generatoriaus kūrimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/1uzduotis-Hashavimas.md)
-
+- [2-oji užduotis: supaprastintos blokų grandinės kūrimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/2uzduotis-Blockchain.md)
 
 ---
 P.s. Kadangi tai yra pirmi metai, kuomet yra dėstomas šis kursas, todėl tiek jo turinys tiek ir struktūra yra derinama viso kurso metu, siekiant jį padaryti kaip įmanoma naudingesnį ir įdomesnį studentams ir būsimiems specialistams.

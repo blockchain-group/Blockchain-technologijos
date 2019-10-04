@@ -7,6 +7,6 @@ Pagal dabartinį preliminarų planą, esame numatę iš viso 5 praktines užduot
  4. Išmaniųjų sutarčių orientuotų į _Ethereum_ blockchain tinklą rašymas (2 balai)
  5. Praktinis darbas skirtas eksperimentams su _Hyperledger_ blockchain tinklais (2 balai)
 
-**Gera naujiena**: Atlikus visus 5 praktinius darbus puikiai ar l. gerai, dalyvavimas egzamine yra neprivalomas!
+**Gera naujiena**: Atlikus visus 5 praktinius darbus puikiai ar l. gerai, dalyvavimas egzamine yra neprivalomas! Kadangi kurso apimtis gana didelė, todėl neatmetamas scenarijus, kad paskutinysis darbas ir sudarys nemažą egzamino dalį.
 
 **"Bloga naujiena"**: Tam reikės pasistengti, tačiau juk mokymasis universitete ir turi būti iššaukiantis, tačiau įdomus ir motyvuojantis! :smile:
