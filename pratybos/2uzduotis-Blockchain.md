@@ -10,12 +10,12 @@ Išskirtume kelis tokios svarbius blokų grandinės aspektus:
 
 - Kiekvieno iš blokchain grandinės bloko struktūra yra sudaryta iš dviejų esminių komponentų: **antraštės** (angl. *header*), kurią šiuo atveju sudaro:
 
-  - Prieš tai buvusio bloko hash'as (`Prev Block Has`)
+  - Prieš tai buvusio bloko hash'as (`Prev Block Hash`)
   - Laiko žymės (`Timestamp`)
   - Jūsų blokams naudojamos duomenų struktūros versija (`Version`)
   - Visų bloko transakcijų binarinio Merkle medžio hash'as (`Merkel Root Hash`)
   - Atsitiktinis skaičius, kuris buvo panaudotas reikiamo sudėtingumo (nusakomo iš eilės einančių nulių skaičiumi hash'o pradžioje) naujojo bloko hash'ui gauti (`Nonce`)
-  - Naujojo bloko hash'o radimo sudėtingumas (`Difficulty Targer`)
+  - Naujojo bloko hash'o radimo sudėtingumas (`Difficulty Target`)
 
   ir **pagrindinės** (angl. *body*) bloko duomenų dalies, kurią sudaro visos į konkretų bloką įeinančios transakcijos.
 
