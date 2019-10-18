@@ -36,7 +36,9 @@ Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite bl
 
 ## Reikalavimai versijai (`v0.2`) (Preliminarus terminas: 2019-10-25)
 
-- Atlikite transakcijų pool'e esančių transakcijų verifikavimą: t.y., jeigu Jūsų sukurtoje transakcijoje vartotojas A siunčia tam tikrą pinigų sumą vartotojui B, tačiau jo balansas yra mažesnis negu siunčiama suma, tą transakciją reiktų ištrinti iš transakcijų pool'o.
+- Atlikite transakcijų pool'e esančių transakcijų verifikavimą:
+  - **Balanso tikrinimas**: Jeigu Jūsų sukurtoje transakcijoje vartotojas A siunčia tam tikrą pinigų sumą vartotojui B, tačiau jo balansas yra mažesnis negu siunčiama suma, tą transakciją reiktų ištrinti iš transakcijų pool'o.
+  - **Transakcijos hash'o tikrinimas**: Jeigu Jūsų transakcijų struktūra neturi transakcijos ID lauko, tuomet papildykite juo! To lauko reikšmė turi būti transakcijos informacijos hash'as. Tuomet poool'o lygmenyje papildomai realizuokite patikrinimą ar tranksakcijos informacijos hash'as sutampa su transakcijos ID. Tokiu būdu įsitikinsite, kad transakcija nebuvo suklastota, kol ji "keliavo" iki transakcijų pool'o.
 - Patobulinkite blokų kasimo (_mininimo_) procesą pagal tokią (ar panašią) logiką:
   - Pirmiausiai pagal aukščiau pateiktą aprašą 3-ame žingsnyje iš visų transakcijų _pool_'o, sudarykite ne vieną, o penkis naujus potencialius blokus (kandidatus): 1A, 1B, 1C, 1D, 1E, sudarytus iš 100 atsitiktinai pasirinktų tranksakcijų, kurios blokų kandidatuose gali persidengti.
   - Tuomet atsitiktinai pasirinkite vieną iš tų penkių blokų-kandidatų ir su juo tam tikrą fiksuotą laiką (pvz., iki 1 sek.) arba fiksuojant maksimalų hash'ų bandymų skaičių (pvz. iki 100000) atlikite _mininimo_ procesą kaip aprašyta ankstesnės užduoties 4-ame žingsnyje. Jeigu po to laiko, nebuvo šiam atsitiktinai pasirinktam blokui-kandidatui surastas hash'as, tenkinantis `Difficulty Targer` reikalavimą, tą procesą pakartokite su atsitiktinai pasirinktu vienu iš likusių (keturių, trijų ir t.t.) kandidatų.
