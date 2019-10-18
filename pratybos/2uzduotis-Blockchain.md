@@ -38,6 +38,7 @@ Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite bl
 - Nuo šios versijos yra būtina turėti prieigą prie pilno Bitcoin mazgo (angl. Bitcoin full node). Atsižvelgiant į [didelius  vietos kietąjame diske reikalavimus](https://www.blockchain.com/charts/blocks-size?timespan=all), o taip pat ir Universiteto labai griežtą saugumo politiką, __rekomenduojame__ įsidiegti [Bitcoin Core realizaciją](https://github.com/bitcoin/bitcoin) pasinaudojant NEMOKAMOMIS debesų technologijos tiekėjo (Gooogle Cloud, AWS ir pan.) paslaugomis.
   - Įdiegimo instrukcijos skirtingoms OS: [Unix](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md), [OS X](https://github.com/bitcoin/bitcoin/blob/master/doc/build-osx.md), [Windows](https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md)
   - P.S. Už kiekvieną "pritrauktą" kolegą, t.y., tą kuris naudosis Jūsų Bitcoin full-nod'u, gausite po 0.1 papildomo balo! :smile:
+- __Comming Soon__
 
 ---
 
