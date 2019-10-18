@@ -1,7 +1,7 @@
 # Blockchain-technologijos
 Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 
-Kas nedalyvavote paskaitoje arba dalyvavote, tačiau neprabalsavote, prašyčiau kuo skubiau Jūsų prabalsuoti čia:
+Kas nedalyvavote paskaitoje arba dalyvavote, tačiau nebalsavote, prašyčiau kuo skubiau Jūsų prabalsuoti čia:
 
 - https://pollev.com/rytisb256
 
