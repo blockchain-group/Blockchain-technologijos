@@ -33,5 +33,12 @@ Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite bl
 
 - Visus šios užduoties žingsnius realizuokite taip, kaip Jūsų dabartinis *blockchain* supratimas sako. Hash'avimo procesui turite naudoti Jūsų pirmąjam darbui sukurtas _hash_ funkcijas.
 
+## Reikalavimai versijai (`v0.2`) (Preliminarus terminas: 2019-11-01)
+
+- Nuo šios versijos yra būtina turėti prieigą prie pilno Bitcoin mazgo (angl. Bitcoin full node). Atsižvelgiant į [didelius  vietos kietąjame diske reikalavimus](https://www.blockchain.com/charts/blocks-size?timespan=all), o taip pat ir Universiteto labai griežtą saugumo politiką, __rekomenduojame__ įsidiegti [Bitcoin Core realizaciją](https://github.com/bitcoin/bitcoin) pasinaudojant NEMOKAMOMIS debesų technologijos tiekėjo (Gooogle Cloud, AWS ir pan.) paslaugomis.
+  - Įdiegimo instrukcijos skirtingoms OS: [Unix](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md), [OS X](https://github.com/bitcoin/bitcoin/blob/master/doc/build-osx.md), [Windows](https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md)
+  - P.S. Už kiekvieną "pritrauktą" kolegą, t.y., tą kuris naudosis Jūsų Bitcoin full-nod'u, gausite po 0.1 papildomo balo! :smile:
+
+---
 
 Iš karto norime užbėgti įvykiams už akių ir pasakyti, kad kitose užduoties versijose atsiras griežtesni reikalavimai, atsižvelgiant kaip iš tiesų _blockchain_ veikia ar yra realizuota. Kaip pvz., atsiras transakcijų validavimas; naujojo bloko hash'o gavimas, kur input'as į hash'o funkciją yra sudarytas iš bloko antraštės parametrų; transakcijų Merkle medžio hash'o gavimas ir pan. Viskas bus sukonkretinta greitu laiku.
