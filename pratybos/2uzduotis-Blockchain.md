@@ -50,11 +50,7 @@ Tokiu būdu nuosekliame programos veikimo kontekste gana naiviai sumodeliuojame 
 
 ## Reikalavimai versijai (`v0.3`) (Preliminarus terminas: 2019-11-21)
 
-- Nuo šios versijos yra būtina turėti prieigą prie pilno Bitcoin mazgo (angl. Bitcoin full node). Atsižvelgiant į [didelius  vietos kietąjame diske reikalavimus](https://www.blockchain.com/charts/blocks-size?timespan=all), o taip pat ir Universiteto labai griežtą saugumo politiką, __rekomenduojame__ įsidiegti [Bitcoin Core realizaciją](https://github.com/bitcoin/bitcoin) pasinaudojant NEMOKAMOMIS debesų technologijos tiekėjo (Gooogle Cloud, AWS ir pan.) paslaugomis.
-  - Įdiegimo instrukcijos skirtingoms OS: [Unix](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md), [OS X](https://github.com/bitcoin/bitcoin/blob/master/doc/build-osx.md), [Windows](https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md)
-  - P.S. Už kiekvieną "pritrauktą" kolegą, t.y., tą kuris naudosis Jūsų Bitcoin full-nod'u, gausite po 0.1 papildomo balo! :smile:
-  - Taip pat reikia įdiegti [libbitcoin: Bitcoin Cross-Platform C++ Development Toolkit](https://github.com/libbitcoin/libbitcoin-system)
-  - **Kaip alternatyva, naudokitės pilnaverčiu Bitcoin mazgu, prie kurio priėjimas Jums buvo suteiktas**: [https://bitnodes.earn.com/nodes/158.129.140.201-8333](https://bitnodes.earn.com/nodes/158.129.140.201-8333)
+-  Šiai užduočiai atlikti, pirmiausia Jums reikia įsidiegti papildomą biblioteką - [libbitcoin-system: Bitcoin Cross-Platform C++ Development Toolkit](https://github.com/libbitcoin/libbitcoin-system), kurios [įdiegimo instrukcijos](https://github.com/libbitcoin/libbitcoin-system#installation) kiekvienai iš populiariausių OS yra detaliai pateiktos.
 -  Vienas iš Jūsų kuriamo *blockchain*'o bloko antraštės elementų yra Merkle medžio hash'as. **Integruokite į Jūsų realizacijas** funkciją `create_merkle()`, kuri paremta [libbitcoin](https://github.com/libbitcoin/libbitcoin-system)  biblioteka, o funkcijos realizacija paimta (su smulkiomis modifikacijomis) iš [Mastering Bitcoin knygos](https://github.com/bitcoinbook/bitcoinbook):
 
 ```cpp
@@ -115,9 +111,10 @@ int main()
 {
     // Replace these hashes with ones from a block to reproduce the same merkle root.
     bc::hash_list tx_hashes{{
-     bc::hash_literal("0000000000000000000000000000000000000000000000000000000000000000"),
-     bc::hash_literal("0000000000000000000000000000000000000000000000000000000000000011"),
-     bc::hash_literal("0000000000000000000000000000000000000000000000000000000000000022"),
+        bc::hash_literal("8c14f0db3df150123e6f3dbbf30f8b955a8249b62ac1d1ff16284aefa3d06d87"),
+        bc::hash_literal("fff2525b8931402dd09222c50775608f75787bd2b87e56995a7bdd30f79702c4"),
+        bc::hash_literal("6359f0868171b1d194cbee1af2f16ea598ae8fad666d9b012c8ed2b79a236ec4"),
+        bc::hash_literal("e9a66845e05d5abc0ad04ec80f774a7e585c6e8db975962d069a522137b80c1d"),
     }};
     const bc::hash_digest merkle_root = create_merkle(tx_hashes);
     std::cout << "Result: " << bc::encode_base16(merkle_root) << std::endl;
