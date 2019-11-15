@@ -51,7 +51,7 @@ Tokiu būdu nuosekliame programos veikimo kontekste gana naiviai sumodeliuojame 
 ## Reikalavimai versijai (`v0.3`) (Preliminarus terminas: 2019-11-21)
 
 -  Šiai užduočiai atlikti, pirmiausia Jums reikia įsidiegti papildomą biblioteką - [libbitcoin-system: Bitcoin Cross-Platform C++ Development Toolkit](https://github.com/libbitcoin/libbitcoin-system), kurios [įdiegimo instrukcijos](https://github.com/libbitcoin/libbitcoin-system#installation) kiekvienai iš populiariausių OS yra detaliai pateiktos.
--  Vienas iš Jūsų kuriamo *blockchain*'o bloko antraštės elementų yra Merkle medžio hash'as. **Integruokite į Jūsų realizacijas** funkciją `create_merkle()`, kuri paremta [libbitcoin](https://github.com/libbitcoin/libbitcoin-system)  biblioteka, o funkcijos realizacija paimta (su smulkiomis modifikacijomis) iš [Mastering Bitcoin knygos](https://github.com/bitcoinbook/bitcoinbook):
+-  Vienas iš Jūsų kuriamo *blockchain*'o bloko antraštės elementų yra Merkle medžio hash'as. **Adaptuokite (modifikuokite) ir integruokite į Jūsų realizaciją** funkciją `create_merkle()`, kuri paremta [libbitcoin](https://github.com/libbitcoin/libbitcoin-system)  biblioteka, o funkcijos realizacija paimta (su smulkiomis modifikacijomis) iš [Mastering Bitcoin knygos](https://github.com/bitcoinbook/bitcoinbook):
 
 ```cpp
 #include <bitcoin/bitcoin.hpp>
