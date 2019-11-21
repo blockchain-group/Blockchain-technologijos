@@ -19,7 +19,7 @@ Išskirtume kelis svarbius blokų grandinės aspektus:
 
   ir **pagrindinės** (angl. *body*) bloko duomenų dalies, kurią sudaro visos į konkretų bloką įeinančios transakcijos.
 
-## Pirminė užduoties formuluotė
+## Užduoties formuluotė
 
 Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite blokų grandinės veikimą kuo natūralesnėmis sąlygomis. Norint tai pasiekti, preliminari veiksmų seka (nebūtinai eilės tvarka, tokia kokia čia nurodyta) galėtų būti tokia:
 
