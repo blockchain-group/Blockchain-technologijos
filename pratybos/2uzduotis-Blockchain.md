@@ -48,7 +48,7 @@ Sukurkite "centralizuotą" blokų grandinę (blockchain'ą) ir susimuliuokite bl
 
 Tokiu būdu nuosekliame programos veikimo kontekste gana naiviai sumodeliuojame "decentralizuotą" naujų blokų kasimą - _mininimą_.
 
-## Reikalavimai versijai (`v0.3`) (Preliminarus terminas: 2019-11-21)
+## Reikalavimai versijai (`v0.3`) (Galutinis terminas: 2019-11-29)
 
 -  Šiai užduočiai atlikti, pirmiausia Jums reikia įsidiegti papildomą biblioteką - [libbitcoin-system: Bitcoin Cross-Platform C++ Development Toolkit](https://github.com/libbitcoin/libbitcoin-system), kurios [įdiegimo instrukcijos](https://github.com/libbitcoin/libbitcoin-system#installation) kiekvienai iš populiariausių OS yra detaliai pateiktos.
 -  Vienas iš Jūsų kuriamo *blockchain*'o bloko antraštės elementų yra Merkle medžio hash'as. 
