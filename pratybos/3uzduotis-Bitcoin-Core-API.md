@@ -91,7 +91,7 @@ for txid in transactions:
 print("Total value in block: ", block_value)
 ```
 
-## Užduoties formuluotė (Preliminarus terminas: 2019-11-28)
+## Užduoties formuluotė (Preliminarus terminas: 2019-11-29)
 
 1. Panaudojant `python-bitcoinlib` biblioteką, Python aplinkoje realizuokite programą, apskaičiuojančią  transakcijos (pvz.`0627052b6f28912f2703066a912ea577f2ce4da4caa5a5fbd8a57286c345c2f2`) mokestį?
 
