@@ -4,7 +4,7 @@
 
 - P.S. Už kiekvieną "pritrauktą" kolegą, t.y., tą kuris naudosis Jūsų Bitcoin full-nod'u, gausite po 0.1 papildomo balo! :smile:
 
-- Taip pat reikia įdiegti [python-bitcoinlib](https://pypi.org/project/bitcoinlib/) biblioteką: `pip instal bitcoinlib`.
+- Taip pat reikia įdiegti [python-bitcoinlib](https://pypi.org/project/python-bitcoinlib/) biblioteką: `pip install python-bitcoinlib`.
 
 **Kaip alternatyva, naudokitės jau sukonfigūruotu pilnaverčiu Bitcoin mazgu, prie kurio priėjimas Jums buvo suteiktas**: [https://bitnodes.earn.com/nodes/158.129.140.201-8333](https://bitnodes.earn.com/nodes/158.129.140.201-8333)
 
