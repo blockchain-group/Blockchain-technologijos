@@ -1,6 +1,8 @@
 # Blockchain-technologijos
 Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 
+## Paskaitos
+- [Išmaniosios sutarties kūrimas ir diegimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/paskaitos/vertinimas.md)
 
 ## Praktinės užduotys
 
