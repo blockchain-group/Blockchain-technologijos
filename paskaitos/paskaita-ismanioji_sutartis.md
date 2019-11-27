@@ -4,7 +4,7 @@ Medžiaga yra: https://medium.com/coinmonks/build-a-smart-contract-to-sell-goods
 
 Paskaitoje:
 
-- aprašoma verslo logiką, kurią įgyvendina išmanioji sutartis;
+- aprašoma verslo logika, kuri įgyvendinama išmaniojoje sutartyje;
 - pateikiama išmaniosios sutarties sekos diagrama (angl. *sequence diagram*);
-- pateikiami sutaačių kodai: https://github.com/fabiojose/ethereum-ex;
+- pateikiami sutarčių kodai: https://github.com/fabiojose/ethereum-ex;
 - naudojant įrankius **Truffle** ir **Ganache** demonstruojamas išmaniosios sutarties testavimas ir diegimas tinkle.
