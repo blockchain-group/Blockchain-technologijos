@@ -1,5 +1,3 @@
-
-
 Šioje paskaitoje reikia **savarankiškai** **išnagrinėti** išmaniosios sutarties pavyzdį, kuris realizuoja prekių pardavimą ir jų pristatymą. 
 
 Medžiaga yra: https://medium.com/coinmonks/build-a-smart-contract-to-sell-goods-6cf73609d25 
@@ -10,4 +8,3 @@ Paskaitoje:
 - pateikiama išmaniosios sutarties sekos diagrama (angl. *sequence diagram*);
 - pateikiami sutaačių kodai: https://github.com/fabiojose/ethereum-ex;
 - naudojant įrankius **Truffle** ir **Ganache** demonstruojamas išmaniosios sutarties testavimas ir diegimas tinkle.
-
