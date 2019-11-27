@@ -1,8 +1,7 @@
 # Blockchain-technologijos
 Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 
-## Paskaitos 2019-11-29 medžiaga
-- [Išmaniosios sutarties kūrimas ir diegimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/paskaitos/paskaita-ismanioji_sutartis.md)
+## [Paskaitos 2019-11-29 medžiaga](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/paskaitos/paskaita-ismanioji_sutartis.md)
 
 ## Praktinės užduotys
 
