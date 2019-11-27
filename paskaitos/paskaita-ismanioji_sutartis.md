@@ -7,5 +7,5 @@ Paskaitoje:
 - pateikiami sutarčių kodai: https://github.com/fabiojose/ethereum-ex;
 - naudojant įrankius **Truffle** ir **Ganache** demonstruojamas išmaniosios sutarties testavimas ir diegimas tinkle.
 
-Šios paskaitos pagrindu bus suformuluota 4-oji užduotis.
+Šios paskaitos pagrindu bus suformuluota [4-oji užduotis](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/4uzduotis-SmartContract.md).
 
