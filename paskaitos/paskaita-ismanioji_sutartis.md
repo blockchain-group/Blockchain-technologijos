@@ -1,3 +1,4 @@
+# Paskaitos 2019-11-29 medžiaga
 Šioje paskaitoje reikia **savarankiškai** **išnagrinėti** išmaniosios sutarties pavyzdį, kuris realizuoja prekių pardavimą ir jų pristatymą. 
 
 Medžiaga yra: https://medium.com/coinmonks/build-a-smart-contract-to-sell-goods-6cf73609d25 
