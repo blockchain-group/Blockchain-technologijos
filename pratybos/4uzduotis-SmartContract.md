@@ -1,0 +1,3 @@
+# 4-oji užduotis: išmaniosios sutarties kūrimas ir diegimas
+
+Greitu metu bus suformuluota... 
