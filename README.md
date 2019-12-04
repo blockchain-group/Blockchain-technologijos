@@ -8,7 +8,7 @@ Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 
 - [Praktinių užduočių vertinimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/vertinimas.md)
 - [Įvadinė užduotis](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/Ivadine-uzduotis.md)
-- [1-oji užduotis: Hash generatoriaus kūrimas (2 + 0.5 balo)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/1uzduotis-Hashavimas.md)
+- [1-oji užduotis: Hash generatoriaus kūrimas (2 + 0,5 balo)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/1uzduotis-Hashavimas.md)
   - **Hash'ų efektyvumo varžytuvės**:
     - [Dominyko Šepučio - Hashrank](https://github.com/dqmis/hashrank)
     - [Augustino Makevičiaus - TheHashRacer](https://github.com/AugustinasMK/TheHashRacer)
