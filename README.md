@@ -1,5 +1,6 @@
 # Blockchain-technologijos
 Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
+## Pateikta 4-oji užduotis (žr. žemiau)
 
 ## [Paskaitos 2019-11-29 medžiaga](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/paskaitos/paskaita-ismanioji_sutartis.md)
 
