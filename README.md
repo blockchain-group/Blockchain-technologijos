@@ -13,6 +13,6 @@ Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
     - [Augustino Makevičiaus - TheHashRacer](https://github.com/AugustinasMK/TheHashRacer)
 - [2-oji užduotis: supaprastintos blokų grandinės kūrimas (2 + 1 balas)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/2uzduotis-Blockchain.md)
 - [3-oji užduotis: „Bitcoin Core“ programinės sąsajos naudojimas - python-bitcoinlib (1 balas)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/3uzduotis-Bitcoin-Core-API.md)
-- [4-oji užduotis: Išmaniosios sutarties kūrimas (2 balai)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/4uzduotis-SmartContract.md)
+- [4-oji užduotis: išmaniosios sutarties ir decentralizuotos aplikacijos kūrimas (2 + iki 1,5 papildomo balo)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/4uzduotis-SmartContract.md)
 ---
 P.s. Kadangi tai yra pirmi metai, kuomet yra dėstomas šis kursas, todėl tiek jo turinys tiek ir struktūra yra derinama viso kurso metu, siekiant jį padaryti kaip įmanoma naudingesnį ir įdomesnį studentams ir būsimiems specialistams.
