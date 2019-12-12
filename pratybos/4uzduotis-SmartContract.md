@@ -12,7 +12,7 @@ Pagrindinis šios užduoties tikslas yra sukurti išmaniąją sutartį (angl. *s
 
 **Svarbu:** ši užduotis remiasi [Paskaitos (2019-11-29) medžiaga](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/paskaitos/paskaita-ismanioji_sutartis.md), todėl prieš atliekant šią užduotį būtina susipažinti su nurodytosios paskaitos medžiaga. 
 
-## Užduoties formuluotė (preliminarus terminas: 2019-12-13)
+## Užduoties formuluotė (terminas: 2019-12-20)
 
 1. Aprašykite išmaniosios sutarties verslo modelio logiką, kurią įgyvendins išmanioji sutartis. 
 
