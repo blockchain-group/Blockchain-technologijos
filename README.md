@@ -5,7 +5,10 @@ Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 
 [Blokų grandinių technologijų kurso egzamino užduoties formuluotė](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/egzaminas/egzaminas-2020.md)
 
-<u>**Svarbu**</u>: Planuojame **sausio 14 d.** dieną skirti laiką (dar patikslinsime ir užtvirtinsime, nes šiomis dienomis dėliojasi kitos savaitės planai) atvykti pas mus į (***Akademijos g. 4, 633 kab.***) ir apginti Jūsų dar neatsiskaitytus ***blockchain*** kurso darbus.
+## Svarbi informacija
+
+- **Sausio 15 d., nuo 13:00 iki 15:00 val.** skiriame Jums laiką atvykti pas mus į ***Akademijos g. 4, 633 kab.*** ir apginti Jūsų dar neatsiskaitytus ***blockchain*** kurso darbus. Egzamino metu bus galima atsiskaityti tik egzamino užduotis.
+- Dalyvavimas egzamine yra neprivalomas, jeigu semestro metu atliekant užduotis surinkote teigiamą balą (>=5). Tikslius Jūsų visų kauptukus suvesime sausio 15 d., kai visi atsiskaitys. Pagal juos daliai iš Jūsų (sukaupusių didžiausius kauptukus) pasiūlysime galutinius balus be dalyvavimo egzamine - įvertinant Jūsų gerą darbą viso semestro metu! Tačiau jeigu jie Jums netiks, galėsite atvykti į egzaminą ir pabandyti įrodyti, kad esate verti dar daugiau!
 
 ## Praktinės užduotys
 
