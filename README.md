@@ -7,6 +7,7 @@ Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 
 ## Svarbi informacija
 
+- **Svarbu:** pagal jūsų viso kurso metu sukauptus kauptukus pasiūlėme daliai iš jūsų preliminarius galutinius balus, o kai kam ir jau oficialius galutinius, nes paprasčiausiai nėra kur gerinti balą :) Tiems, kuriuos tenkina preliminarus galutinis balas, galite rytoj į egzaminą neatvykti ir šis preliminarus balas pavirs galutiniu. Atidžiai patikrinkite, ar neįsivėlė klaida skaičiuojant jūsų balus, nes to tikimybė tikrai yra. 
 - **Sausio 15 d., nuo 13:00 iki 15:00 val.** skiriame Jums laiką atvykti pas mus į ***Akademijos g. 4, 633 kab.*** ir apginti Jūsų dar neatsiskaitytus ***blockchain*** kurso darbus. Egzamino metu bus galima atsiskaityti tik egzamino užduotis.
 - Dalyvavimas egzamine yra neprivalomas, jeigu semestro metu atliekant užduotis surinkote teigiamą balą (>=5). Tikslius Jūsų visų kauptukus suvesime sausio 15 d., kai visi atsiskaitys. Pagal juos daliai iš Jūsų (sukaupusių didžiausius kauptukus) pasiūlysime galutinius balus be dalyvavimo egzamine - įvertinant Jūsų gerą darbą viso semestro metu! Tačiau jeigu jie Jums netiks, galėsite atvykti į egzaminą ir pabandyti įrodyti, kad esate verti dar daugiau!
 
