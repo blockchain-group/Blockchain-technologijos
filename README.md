@@ -1,6 +1,10 @@
 # Blockchain-technologijos
 Blokų grandinių technologijų (angl. _blockchain_) kurso medžiaga
 
+## Po Egzamino
+
+- **Svarbu/Skubu:** Egzamino metu pildant balus online, trumpam buvo dingęs internetas, ko pasekoje dalis balų "dingo" :( Todėl kuo skubiau prašome, pas tuos, pas ką galutinis balas dingo arba jis įrašytas neteisingas parašyti Jums pratybas vedusiam dėstytojui, kiek Jūs gavote iš egzamino ir mes kuo greičiau pataisysime. Labai ačiū ir visiems geros likusios sesijos!
+
 ## Egzamino užduotis
 
 [Blokų grandinių technologijų kurso egzamino užduoties formuluotė](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/egzaminas/egzaminas-2020.md)
